@@ -23,8 +23,8 @@ Default prefix is `/pads-api` (configurable, see below).
 ```json
 {
   "pads": [
-    { "id": "TF-EVC", "lastEdited": "2026-06-15", "creator": "Gerald Franzl" },
-    { "id": "Welcome", "lastEdited": "2026-05-02", "creator": null }
+    { "id": "Team-Notes", "lastEdited": "2026-06-15", "creator": "Ivan Forkaliuk" },
+    { "id": "Sprint-Plan", "lastEdited": "2026-05-02", "creator": null }
   ]
 }
 ```

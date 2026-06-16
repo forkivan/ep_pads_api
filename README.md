@@ -58,6 +58,14 @@ All optional. In `settings.json`:
 | `requireAuth` | `true`       | Only logged-in users may call the endpoints. Set `false` to open them. |
 | `basePath`    | `/pads-api`  | URL prefix for the endpoints.                                  |
 
+## Requirements
+
+- **Etherpad** (`ep_etherpad-lite`) — no other plugin is required.
+- With the default `requireAuth: true`, callers must be **logged in**, so you
+  need an authentication method (e.g.
+  [`ep_openid_connect`](https://www.npmjs.com/package/ep_openid_connect)); set
+  `requireAuth: false` to leave the endpoints open.
+
 ## Install
 
 ```sh

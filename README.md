@@ -9,9 +9,9 @@ against it.
 
 Companion plugins (each does one thing):
 
-- **[ep_pads_view](https://github.com/forkivan/ep_pads_view)** — a ready-made
+- **[ep_pads_view](https://www.npmjs.com/package/ep_pads_view)** — a ready-made
   HTML page on top of this API, if you don't want to write a frontend.
-- **[ep_current_user](https://github.com/forkivan/ep_current_user)** — a
+- **[ep_current_user](https://www.npmjs.com/package/ep_current_user)** — a
   `whoami` endpoint for the current logged-in user.
 
 ## Endpoints

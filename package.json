@@ -1,7 +1,7 @@
 {
   "name": "ep_pads_api",
   "description": "Clean JSON API for Etherpad: lists all pads with their creator and last-edited date. Build your own dashboard or site against it. For a ready-made HTML page on top of this install ep_pads_view; for the current logged-in user see ep_current_user.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Ivan Forkaliuk",
     "url": "https://github.com/forkivan"

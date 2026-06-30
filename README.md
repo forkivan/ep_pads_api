@@ -23,14 +23,15 @@ Default prefix is `/pads-api` (configurable, see below).
 ```json
 {
   "pads": [
-    { "id": "Team-Notes", "lastEdited": "2026-06-15", "creator": "Ivan Forkaliuk" },
-    { "id": "Sprint-Plan", "lastEdited": "2026-05-02", "creator": null }
+    { "id": "Team-Notes", "lastEdited": "2026-06-15", "lastEditedTs": 1750000000000, "creator": "Ivan Forkaliuk" },
+    { "id": "Sprint-Plan", "lastEdited": "2026-05-02", "lastEditedTs": 1746100000000, "creator": null }
   ]
 }
 ```
 
 - `creator` is the author of the pad's first revision; `null` for anonymous.
-- `lastEdited` is an ISO date (`YYYY-MM-DD`); `null` if unknown.
+- `lastEdited` is an ISO date (`YYYY-MM-DD`) for display; `null` if unknown.
+- `lastEditedTs` is the full last-edit timestamp in epoch milliseconds (for precise sorting); `null` if unknown.
 
 ## Why this exists (vs the built-in API)
 
